@@ -1,0 +1,25 @@
+{
+  "name": "tracking-memory-allocations-blog-example",
+  "version": "1.0.0",
+  "description": "Repository containing all the examples from Tracking Memory Allocations blog post",
+  "main": "01-simple-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nearform/tracking-memory-allocations-blog-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nearform/tracking-memory-allocations-blog-example/issues"
+  },
+  "homepage": "https://github.com/nearform/tracking-memory-allocations-blog-example#readme",
+  "dependencies": {
+    "docker-namesgenerator": "^0.0.1",
+    "fastify": "^3.27.1",
+    "handlebars": "^4.7.7"
+  }
+}
