@@ -21,5 +21,8 @@
     "docker-namesgenerator": "^0.0.1",
     "fastify": "^3.27.1",
     "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "climem": "^1.0.3"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "main": "lib/binding.js",
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  },
+  "scripts": {
+    "test": "node --napi-modules ./test/test_binding.js",
+    "start": "node lib/server.js",
+    "prebuild": "node-gyp configure",
+    "build": "node-gyp build"
+  },
+  "gypfile": true,
+  "name": "napi",
+  "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
